@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="title">Weather App</h1>
+        <div class="weather-card">
+          <h2 class="location">Location</h2>
+          <h3 class="temp">Temperature</h3>
+          <p class="desc"><span>&#8451;</span></p>
+          <img class="icon" src="data:image/png;base64,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" alt="Weather Icon">
+        </div>
+        <form class="form">
+          <input type="text" id="city" class="city-input" placeholder="Enter city name">
+          <button type="submit" id="submit" class="submit">Get Weather</button>
+        </form>
+      </div>
+
+      <div class="container">
+      <h2>Weather in <span id="cityName"></span></h2>
+
+      <ul>
+        <li>Temperature is:- <span id="temp"></span></li>
+        <li>feels_like:- <span id="feels_like"></span></li>
+        <li>humidity:- <span id="humidity"></span></li>
+        <li>max_temp:- <span id="max_temp"></span></li>
+        <li>min_temp:- <span id="min_temp"></span></li>
+        <li>wind_speed:- <span id="wind_speed"></span></li>
+        <li>sunset:- <span id="sunset"></span></li>
+        <li>wind_degrees:- <span id="wind_degrees"></span></li>
+        <li>sun rise:- <span id="sunrise"></span></li>
+        <li>cloud_pct <span id="cloud_pct"></span></li>
+      </ul> 
+</div>
+
+
+      <script src="script.js"></script>
+
+
+  </body>
+</html>
