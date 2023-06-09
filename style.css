@@ -86,3 +86,20 @@ body {
        text-align: center;
     }
 }
+
+
+@media only screen and (max-width: 376px) {
+  
+  .container{
+    /* width: 200px; */
+    margin: 50px auto;
+    text-align: center;
+  }
+ }
+.temp{
+  font-size: 25px;
+}
+  .submit{
+    padding: 10px;
+  }
+
