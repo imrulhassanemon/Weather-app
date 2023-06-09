@@ -72,7 +72,7 @@ body {
   text-align: center;
   
 }
-@media only screen and (max-width:393px) {
+@media only screen and (max-width:325px) {
   .container{
     width: 200px;
     margin: 50px auto;
